@@ -34,29 +34,17 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "One",
+            "Two",
+            "Three"});
             this.comboBox1.Location = new System.Drawing.Point(60, 50);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(167, 20);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.comboBox1_DrawItem);
+            this.comboBox1.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.comboBox1_MeasureItem);
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-
-            //콤보박스 아이템 추가
-            this.comboBox1.Items.Add("Tokyo");
-
-            //콤보박스 아이템 삭제
-            //인덱스 선택 삭제
-            this.comboBox1.Items.RemoveAt(0);
-            //현재 선택된 아이템 삭제
-            this.comboBox1.Items.Remove(comboBox1.SelectedItem);
-            //특정아이템 삭제
-            this.comboBox1.Items.Remove("Tokyo");
-
-            //정렬
-            this.comboBox1.Sorted = true;
-               
-            //바인딩도 있는데 비인딩 빌드인가 뭔가 있던데 몰라서 안함
-            
-
             // 
             // Form1
             // 

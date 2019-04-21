@@ -27,22 +27,6 @@ namespace CheckBox
             {
                 checkBox1.Text = "Unchecked";
             }
-
-            //////////////////////////////////////////////
-            switch (checkBox1.CheckState)
-            {
-                case CheckState.Checked:
-                    // Code for checked state.  
-                    break;
-                case CheckState.Unchecked:
-                    // Code for unchecked state.  
-                    break;
-                case CheckState.Indeterminate:
-                    // Code for indeterminate state.  
-                    break;
-            }
-           
-
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
@@ -52,6 +36,27 @@ namespace CheckBox
                 this.AllowDrop = false;
             }
             
+        }
+
+        private void checkBox2_Click(object sender, EventArgs e)
+        {
+
+            // checkBox2.ThreeState = true 일 때 3가지 상태를 가짐
+            switch (checkBox1.CheckState)
+            {
+                case CheckState.Checked:
+                    // Code for checked state.  
+                    MessageBox.Show(checkBox2.CheckState.ToString());
+                    break;
+                case CheckState.Unchecked:
+                    // Code for unchecked state.  
+                    MessageBox.Show(checkBox2.CheckState.ToString());
+                    break;
+                case CheckState.Indeterminate:
+                    // Code for indeterminate state.  
+                    MessageBox.Show(checkBox2.CheckState.ToString());
+                    break;
+            }
         }
     }
 }

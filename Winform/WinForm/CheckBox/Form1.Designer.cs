@@ -48,11 +48,13 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(37, 92);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(86, 16);
+            this.checkBox2.Size = new System.Drawing.Size(150, 16);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.Text = "Three state CheckBox";
+            this.checkBox2.ThreeState = true;
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.checkBox2.Click += new System.EventHandler(this.checkBox2_Click);
             // 
             // Form1
             // 
