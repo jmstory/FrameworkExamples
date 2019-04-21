@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1.csproj", "{5D30981F-6B3E-4449-BF49-B45E1D6F8ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxControl", "TextBoxControl\TextBoxControl.csproj", "{EBFAFAF2-8315-4209-81FF-38E69F32BB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckBox", "CheckBox\CheckBox.csproj", "{001FA3A2-E299-4B10-A08D-9F570B4D24F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboBox.csproj", "{537C0390-7F1B-447E-A1BB-8C3AB22E4A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabelControl", "LabelControl\LabelControl.csproj", "{E370330B-54F3-446E-936F-0F2720A78038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{3E04C9F6-F991-48C7-8D25-B6FF25C5BEB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D30981F-6B3E-4449-BF49-B45E1D6F8ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D30981F-6B3E-4449-BF49-B45E1D6F8ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D30981F-6B3E-4449-BF49-B45E1D6F8ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D30981F-6B3E-4449-BF49-B45E1D6F8ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFAFAF2-8315-4209-81FF-38E69F32BB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFAFAF2-8315-4209-81FF-38E69F32BB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFAFAF2-8315-4209-81FF-38E69F32BB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFAFAF2-8315-4209-81FF-38E69F32BB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001FA3A2-E299-4B10-A08D-9F570B4D24F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001FA3A2-E299-4B10-A08D-9F570B4D24F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001FA3A2-E299-4B10-A08D-9F570B4D24F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001FA3A2-E299-4B10-A08D-9F570B4D24F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{537C0390-7F1B-447E-A1BB-8C3AB22E4A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537C0390-7F1B-447E-A1BB-8C3AB22E4A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537C0390-7F1B-447E-A1BB-8C3AB22E4A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537C0390-7F1B-447E-A1BB-8C3AB22E4A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E370330B-54F3-446E-936F-0F2720A78038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E370330B-54F3-446E-936F-0F2720A78038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E370330B-54F3-446E-936F-0F2720A78038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E370330B-54F3-446E-936F-0F2720A78038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E04C9F6-F991-48C7-8D25-B6FF25C5BEB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E04C9F6-F991-48C7-8D25-B6FF25C5BEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E04C9F6-F991-48C7-8D25-B6FF25C5BEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E04C9F6-F991-48C7-8D25-B6FF25C5BEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC9DDB7-3263-47AE-8D45-BAD112EC8BC7}
+	EndGlobalSection
+EndGlobal
