@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewControl", "TreeView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControlControl", "TabControlControl\TabControlControl.csproj", "{5F5FF09E-36C6-4137-B109-8D435DFBA5BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewControl", "..\DataGridViewControl\DataGridViewControl.csproj", "{5F7B0E47-49B9-4027-8FE7-586A74EDC420}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{5F5FF09E-36C6-4137-B109-8D435DFBA5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F5FF09E-36C6-4137-B109-8D435DFBA5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F5FF09E-36C6-4137-B109-8D435DFBA5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
