@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckedListBox", "CheckedLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio_Button", "Radio_Button\Radio_Button.csproj", "{A14D55E6-F20B-4F66-A1B2-8B05A7F670AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontDialogControl", "..\FontDialogControl\FontDialogControl.csproj", "{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderBrowserDialogControl", "FolderBrowserDialogControl\FolderBrowserDialogControl.csproj", "{157AB37A-CF2A-4237-8CBA-400347800474}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBoxControl", "GroupBoxControl\GroupBoxControl.csproj", "{A1CC19F5-0DCE-425F-A342-9BF7273FF39E}"
@@ -44,8 +42,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusStripControl", "StatusStripControl\StatusStripControl.csproj", "{70368C26-F377-41FC-A09E-880139D20867}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextMenuStripControl", "ContextMenuStripControl\ContextMenuStripControl.csproj", "{2461B8C2-8C2D-4EBD-B536-E852E73AE475}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTipComponentControl", "..\ToolTipComponentControl\ToolTipComponentControl.csproj", "{9DD415A7-5A24-448C-BCCE-F330575AB208}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotiftIconControl", "NotiftIconControl\NotiftIconControl.csproj", "{8C5B611A-4EA2-44A2-A898-96042C69D152}"
 EndProject
@@ -65,7 +61,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeViewControl", "TreeView
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabControlControl", "TabControlControl\TabControlControl.csproj", "{5F5FF09E-36C6-4137-B109-8D435DFBA5BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewControl", "..\DataGridViewControl\DataGridViewControl.csproj", "{5F7B0E47-49B9-4027-8FE7-586A74EDC420}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridViewControl", "DataGridViewControl\DataGridViewControl.csproj", "{5F7B0E47-49B9-4027-8FE7-586A74EDC420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontDialogControl", "FontDialogControl\FontDialogControl.csproj", "{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolTipComponentControl", "ToolTipComponentControl\ToolTipComponentControl.csproj", "{9DD415A7-5A24-448C-BCCE-F330575AB208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,10 +121,6 @@ Global
 		{A14D55E6-F20B-4F66-A1B2-8B05A7F670AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A14D55E6-F20B-4F66-A1B2-8B05A7F670AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14D55E6-F20B-4F66-A1B2-8B05A7F670AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{157AB37A-CF2A-4237-8CBA-400347800474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{157AB37A-CF2A-4237-8CBA-400347800474}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{157AB37A-CF2A-4237-8CBA-400347800474}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -157,10 +153,6 @@ Global
 		{2461B8C2-8C2D-4EBD-B536-E852E73AE475}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2461B8C2-8C2D-4EBD-B536-E852E73AE475}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2461B8C2-8C2D-4EBD-B536-E852E73AE475}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C5B611A-4EA2-44A2-A898-96042C69D152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C5B611A-4EA2-44A2-A898-96042C69D152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5B611A-4EA2-44A2-A898-96042C69D152}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -201,6 +193,14 @@ Global
 		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F7B0E47-49B9-4027-8FE7-586A74EDC420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B9125B-36B4-42FF-A8ED-8A7F0FB8E7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD415A7-5A24-448C-BCCE-F330575AB208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
