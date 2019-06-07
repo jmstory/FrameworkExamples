@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessingTheWebByUsingAsync
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWhenAll", "TaskWhenAll\TaskWhenAll.csproj", "{DD18A9AB-EB43-470A-B8D6-F2153507721F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeMultipleWebRequest", "MakeMultipleWebRequest\MakeMultipleWebRequest.csproj", "{83724C4A-3955-41F0-BC4C-C23FBC2B1D16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{5E78DC73-1AEC-49A0-8EBB-B23D284F1467}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DD18A9AB-EB43-470A-B8D6-F2153507721F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD18A9AB-EB43-470A-B8D6-F2153507721F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD18A9AB-EB43-470A-B8D6-F2153507721F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83724C4A-3955-41F0-BC4C-C23FBC2B1D16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83724C4A-3955-41F0-BC4C-C23FBC2B1D16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83724C4A-3955-41F0-BC4C-C23FBC2B1D16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83724C4A-3955-41F0-BC4C-C23FBC2B1D16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E78DC73-1AEC-49A0-8EBB-B23D284F1467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E78DC73-1AEC-49A0-8EBB-B23D284F1467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E78DC73-1AEC-49A0-8EBB-B23D284F1467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E78DC73-1AEC-49A0-8EBB-B23D284F1467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
